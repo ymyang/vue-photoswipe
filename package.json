@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack",
-    "serve": "serve -p 1337 dist",
+    "serve": "serve -p 1337",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
