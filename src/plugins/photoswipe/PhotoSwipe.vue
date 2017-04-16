@@ -77,8 +77,8 @@
     export default {
         methods: {
             open (index, items, options = {
-                captionEl: false,
-                fullscreenEl: false,
+                // captionEl: false,
+                fullscreenEl: true,
                 history: false,
                 shareEl: false,
                 tapToClose: true

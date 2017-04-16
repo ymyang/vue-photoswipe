@@ -7241,8 +7241,8 @@ exports.default = {
     methods: {
         open: function open(index, items) {
             var options = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : {
-                captionEl: false,
-                fullscreenEl: false,
+                // captionEl: false,
+                fullscreenEl: true,
                 history: false,
                 shareEl: false,
                 tapToClose: true
