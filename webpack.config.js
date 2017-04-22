@@ -10,7 +10,7 @@ const autoprefixer = require('autoprefixer')({ browsers: ['iOS >= 7', 'Android >
 module.exports = {
   target: 'web',
   entry: {
-    app: './src/app.js'
+    app: './demo/app.js'
   },
   output: {
     filename: 'js/[name]_[hash].js',
@@ -52,7 +52,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: path.resolve(__dirname, 'src/index.html'),
+      template: path.resolve(__dirname, 'demo/index.html'),
       filename: 'index.html',
     }),
     extract

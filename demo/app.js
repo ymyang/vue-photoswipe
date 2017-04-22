@@ -1,6 +1,6 @@
 import Vue from 'vue'
 
-import VuePhotoSwipe from './plugins/photoswipe'
+import VuePhotoSwipe from '../src'
 
 Vue.use(VuePhotoSwipe)
 

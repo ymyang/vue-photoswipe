@@ -23,35 +23,35 @@
         data () {
             return {
                 items: [{
-                    src: '../img/Chrysanthemum.jpg',
+                    src: '../demo/img/Chrysanthemum.jpg',
                     w: 1024,
                     h: 768
                 }, {
-                    src: '../img/Desert.jpg',
+                    src: '../demo/img/Desert.jpg',
                     w: 1024,
                     h: 768
                 }, {
-                    src: '../img/Hydrangeas.jpg',
+                    src: '../demo/img/Hydrangeas.jpg',
                     w: 1024,
                     h: 768
                 }, {
-                    src: '../img/Jellyfish.jpg',
+                    src: '../demo/img/Jellyfish.jpg',
                     w: 1024,
                     h: 768
                 }, {
-                    src: '../img/Koala.jpg',
+                    src: '../demo/img/Koala.jpg',
                     w: 1024,
                     h: 768
                 }, {
-                    src: '../img/Lighthouse.jpg',
+                    src: '../demo/img/Lighthouse.jpg',
                     w: 1024,
                     h: 768
                 }, {
-                    src: '../img/Penguins.jpg',
+                    src: '../demo/img/Penguins.jpg',
                     w: 1024,
                     h: 768
                 }, {
-                    src: '../img/Tulips.jpg',
+                    src: '../demo/img/Tulips.jpg',
                     w: 1024,
                     h: 768
                 }]
