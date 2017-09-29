@@ -87,7 +87,7 @@
                     index: index,
                     getThumbBoundsFn (index) {
                         const thumbnail = document.querySelectorAll('.preview-img-item')[index]
-                        const pageYScroll = window.pageYScroll || document.documentElement.scrollTop
+                        const pageYScroll = window.pageYOffset || document.documentElement.scrollTop
                         const rect = thumbnail.getBoundingClientRect()
                         return {
                             x: rect.left,
